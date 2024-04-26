@@ -1,0 +1,4 @@
+print("Hello, I will covert Kilograms into Pounds!")
+first_num= float(input("Please enter the weight in kilograms"))
+total=float(first_num * 2.20462)
+print(f"{first_num} Kg is equivalent to {total:.2f} Pounds")
