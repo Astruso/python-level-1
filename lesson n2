@@ -1,0 +1,12 @@
+#output to user
+print("Hello,what would you like to convert today?")
+conversion_choice=input("1) lb to Kg,  2)kg to lb")
+#if user choses 1
+if(conversion_choice=="1"):
+  pound=float(input("please enter your value in lb"))
+  print("this is",pound/2.204, "kg")
+elif(conversion_choice=="2"):
+  kg=float(input("please enter your value in kg"))
+  print(f"this is {kg*2.204:.2f} lb")
+else:
+  print("no option chosen")
